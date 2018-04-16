@@ -1,0 +1,11 @@
+/.vs/LTW/v15
+/.vs/config
+/Services/bin
+/Services/obj
+/Contracts/obj
+/Contracts/bin
+/DataAccess/obj
+/DataAccess/bin
+/LTW/obj
+/LTW/bin
+/packages

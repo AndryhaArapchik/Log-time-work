@@ -1,0 +1,13 @@
+﻿<section>
+    <input type="button" name="CreateUser" value="Create user" />
+    <input type="button" name="GetAllUsers" value="Get all users" />
+</section>
+@section scripts{
+    <script>
+        $(function () {
+            $("input[name='CreateUser']").click(function () {
+                location = '@Url.Action("CreateUser", "User")';
+            })
+        });
+    </script>
+}
